@@ -22,10 +22,9 @@ int main(void)
 		str2[i]=str1[i];
 		++count;
 	}
+	str2[count]='\0';
 	
-	for(i=0;i<count;i++)
-	{
-		printf("%c",str2[i]);
-	}
+	printf("%s",str2);
+	
 	return 0;
 }
