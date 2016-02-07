@@ -23,8 +23,8 @@ int main(void)
 		++count;
 	}
 	str2[count]='\0';
-	
-	printf("%s",str2);
+	printf("length : %d",count);
+	printf("\nsubstring : %s",str2);
 	
 	return 0;
 }
