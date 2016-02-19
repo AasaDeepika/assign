@@ -15,7 +15,11 @@ int main()
 	{
 		a=1;
 	}
-	else a=2;
+	else if(type=="GP") a=2;
+	else {
+			printf("Enter correct type...");
+			return 0;
+	}
 	switch(a)
 	{
 		case 1:
