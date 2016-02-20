@@ -23,28 +23,27 @@ void main()
 				ec = (j==5)?j:j+1;
 				if(arr[i][j]!=-1)		 
 		 		{
-						num=0;
-		 		 		for(k=sr;k<=er;k++)
+					num=0;
+		 		 	for(k=sr;k<=er;k++)
+		 		 	{
+		 		 		 for(l=sc;l<=ec;l++)
 		 		 		 {
-		 		 		 		for(l=sc;l<=ec;l++)
-		 		 		 		{
-		 		 		 		 		 if(arr[k][l] == -1)
-		 		 		 		 		 {
-		 		 		 		 		   num++;
-		 		 		 		 		 }   
-		 		 		 		}
-		 		 		 }		
-		 		 		 arr[i][j]=num;
+		 		 		 	if(arr[k][l] == -1)
+		 		 		 	{
+		 		 			   num++;
+		 		 		 	}   
+		 		 		 }
+		 		 	}		
+		 		 	arr[i][j]=num;
 		 		}
-
-		 }
+		}
 	}
 	for(i=0;i<6;i++)
 	{
 	  for(j=0;j<6;j++)
 	  {
-	    printf("%d  ",arr[i][j]);
-	 }
+	    	printf("%d  ",arr[i][j]);
+	  }
 	   printf("\n");
     }
 }
