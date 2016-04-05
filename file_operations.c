@@ -9,7 +9,7 @@ int main(void)
 	char c;
 	int i,j,word_ct=0,special_ct=0,let_ct=0,letter_ct[26]={0};
 	char word[2000][15];
-	f=fopen("place.txt","r");
+	f = fopen("place.txt","r");
 	if(f == NULL)
 	{
 		printf("\n fopen() Error!!!\n");
