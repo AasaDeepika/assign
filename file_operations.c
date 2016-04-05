@@ -12,7 +12,7 @@ int main(void)
 	f = fopen("place.txt","r");
 	if(f == NULL)
 	{
-		printf("\n fopen() Error!!!\n");
+		printf("\n there is an fopen() Error!!!\n");
         return 0;
 	}
 	else
