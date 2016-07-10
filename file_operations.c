@@ -25,11 +25,11 @@ int main(void)
 			j=0;
 			if((c>64 && c<91)||(c>96 && c<123))
 			{
-				while((c>64 && c<91)||(c>96 && c<123))
+				do
 				{
 					word[i][j++]=toupper(c);
 					c=fgetc(f);		
-				}
+				}while((c>64 && c<91)||(c>96 && c<123));
 				word[i][j]='\0';
 				i++;
 			}
