@@ -1,6 +1,9 @@
+
+/* Program to print day (MONDAY) IN CAPITALS when date (10 12 2012)is give as input */
+
 import java.io.*;
 import java.util.*;
-import java.text.*;
+//import java.text.*;
 import java.math.*;
 import java.time.*;
 
