@@ -23,3 +23,4 @@ public class Solution {
         System.out.println(new DateFormatSymbols().getWeekdays()[cal.get(Calendar.DAY_OF_WEEK)].toUpperCase());
     }
 }
+ 
